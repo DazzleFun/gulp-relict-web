@@ -1,0 +1,16 @@
+@use "sass:math";
+
+// Content limiter
+$min-width: 320px;
+$content: 1200px;
+$padding: 15px;
+
+// Theme colors
+$light-theme: white;
+$dark-theme: #2b2a33;
+
+// @media
+$burger: 640px;
+
+// math (don't touch)
+$content-max-width: $content + $padding + $padding;

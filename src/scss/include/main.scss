@@ -1,0 +1,13 @@
+// .main
+.main {
+  flex: 1 1 auto;
+  transform: translate(0%, 0%);
+  visibility: visible;
+  transition:
+    transform 0.2s ease-in-out,
+    visibility 0.2s ease-in-out;
+  &.active {
+    transform: translate(-100%, 0%);
+    visibility: hidden;
+  }
+}

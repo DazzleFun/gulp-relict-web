@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+@include("./include/head.htm",{
+  "lang": "en-US",
+  "title": "Example",
+  "description": "Example",
+  "link": "https://example.com",
+  "linkcard": "https://example.com/images/card.jpg",
+  "safaripinnedtab": "#4be4c9",
+  "schemelight": "#f0fafd"
+})
+<body>
+<div class="wrapper">
+
+  <!-- Preloader -->
+@include("./include/preloader.htm",{})
+
+  <!-- Header -->
+@include("./include/header.htm",{})
+
+  <!-- Main -->
+  <main class="main">
+
+
+
+  </main>
+
+  <!-- Burger-menu -->
+  <div class="burger-menu">
+    <div class="burger-menu__list">
+      <a class="burger-menu__link" href="#">1</a>
+      <a class="burger-menu__link" href="#">2</a>
+      <a class="burger-menu__link" href="#">3</a>
+      <a class="burger-menu__link" href="#">4</a>
+      <a class="burger-menu__link" href="#">5</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+@include("./include/footer.htm",{})
+
+</div>
+</body>
+</html>
